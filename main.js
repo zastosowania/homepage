@@ -1,0 +1,1 @@
+console.log('Witaj przybszu waidzemyh cożeśty uważny reader - zdrów! ');

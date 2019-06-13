@@ -1,0 +1,28 @@
+body {
+	background-color: #caffe0;
+}
+
+.mainHeader {
+	color: tomato;
+}
+
+body h2 {
+	color: #1460aa;
+}3
+
+.sectionHeader {
+	color: #1460aa;
+}
+
+.diaryHeader {
+	color: blue;
+	font-size: 64px;
+}
+
+#rozszerzenia {
+	background-color: greenyellow;
+}
+
+p {
+	color: darkblue;
+}
