@@ -1,28 +1,19 @@
 body {
-	background-color: salmon;
+	background-color: #fdfdfa;
 }
 
 .mainHeader {
-	color: tomato;
+	color: #7d8491;
 }
 
-body h2 {
-	color: #1460aa;
+.sectionHeader, .diaryHeader {
+	color: #7d8491;
 }
 
-.sectionHeader {
-	color: #1460aa;
+.thirdHeader {
+	color: #443850;
 }
 
-.diaryHeader {
-	color: blue;
-	font-size: 64px;
-}
-
-#rozszerzenia {
-	background-color: greenyellow;
-}
-
-p {
-	color: darkblue;
+.link {
+	color: #898b49;
 }
