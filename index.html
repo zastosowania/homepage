@@ -11,21 +11,20 @@
 
 <body>
 
-	<header>
+	<header class="navigation">
 			<a href="index.html" class="link">Strona główna</a>
 			<a href="prawidlowyhtml.html" class="link">Prawidłowy HTML</a>
 	</header>
 
 	<main>
 		<header>
-				<h1 class="mainHeader">Andrzej Lach - Strona domowa</h1>
+				<h1 id="top" class="mainHeader">Andrzej Lach - Strona domowa</h1>
 		</header>
-		
-		<section>
+		<section class="about">
+			<img src="swim.jpg" alt="swimming" class="articlePic">
+			<div class="box">Co ten frontend</div>
 			<h2 class="sectionHeader">Kim Jestem</h2>
-			<p>
-				Hej uczę się frontendu od podstaw od Maćka Korsana<br /> ....
-			</p>
+			<p>Hej uczę się frontendu od podstaw od Maćka Korsana<br /> ....</p>
 		</section>
 
 		<section>
@@ -51,9 +50,32 @@
 			<p>bla bla bla
 			</p>
 		</section>
+
+		<section>
+				<h3 class="diaryHeader">Rusza proces akredytacji na Parapływackie Mistrzostwa Świata w Londynie!</h3>
+				<img src="swim.jpg" alt="swimming" class="articlePic">
+				<p>Informujemy, że organizacje World Para Swimming wraz z British Swimming rozpoczynają proces akredytacyjny dla przedstawicieli prasy, radia i telewizji (nie posiadających praw nadawcy) oraz fotoreporterów zainteresowanych relacjonowaniem tegorocznych Parapływackich Mistrzostw Świata.</p>
+				<p>IX edycja Mistrzostw Świata odbędzie się na jesieni tego roku w Wielkiej Brytanii w London Aquatics Centre Queen Elizabeth Park – tym samym, w którym rozgrywana była pływacka rywalizacja podczas Igrzysk Paraolimpijskich w Londynie w 2012 roku. W mistrzostwach weźmie udział blisko 600 zawodników z 60 krajów. Zawody rozpoczną się 9 września i potrwają przez cały tydzień, do 15 września. Wręczonych zostanie ponad 130 tytułów mistrzyń i mistrzów świata. Zawody stanowią kluczowy etap kwalifikacji na igrzyska paraolimpijskie w Tokio w 2020 roku. Polskę będzie reprezentowało 9-11 zawodników.
+				<p>Link do akredytacji:</p>
+						https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy
+						<p>Więcej informacji udziela:</p>
+						
+						<p><span>Dan McDermott</span><br>
+						Marketing and PR Officer<br>
+						British Swimming<br>
+						www.britishswimming.org<br>
+						E: dan.mcdermott@swimming.org<br>
+						M: 07583 681180<br>
+						źródło: Press Release IPC<br>
+						foto: Adrian Stykowski</p>
+		</section>
+			
+
+
 	</main>
 
 	<footer>
+			<a href="#top" class="top">Na Górę</a>
 			Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
 	</footer>
 	<script src="main.js"></script>

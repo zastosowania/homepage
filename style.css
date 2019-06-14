@@ -4,6 +4,7 @@ body {
 
 .mainHeader {
 	color: #7d8491;
+	padding-top: 50px;
 }
 
 .sectionHeader, .diaryHeader {
@@ -16,4 +17,54 @@ body {
 
 .link {
 	color: #898b49;
+}
+
+.about {
+	position: relative;
+	width: 100%;
+	max-width: 700px;
+	margin: 32px;
+	overflow: hidden;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #898b49;
+	padding: 10px;
+	border: 10px solid red;
+	box-sizing: border-box;
+	top: 10px;
+	right: 50%;
+	z-index: 2;
+	position: sticky;
+}
+
+.top{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: darkolivegreen;
+	text-decoration: none;
+}
+
+.navigation{
+	position: fixed;
+	width: 100%;
+	padding: 10x;
+	top: 10px;
+	left: 0;
+	color: aqua;
+	box-sizing: border-box;
+	padding: 16px;
+	background-color: #fff;
+}
+
+.articlePic
+{
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	margin: 0 16px 16px 0;
 }
