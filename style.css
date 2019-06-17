@@ -2,32 +2,109 @@ body {
 	background-color: #fdfdfa;
 }
 
-.mainHeader {
-	color: #7d8491;
-	padding-top: 50px;
+.navigation{
+	position: fixed;
+	font-size: 24px;
+	top: 10px;
+	left: 0;
+	color: aqua;
+	box-sizing: border-box;
+	padding: 0 16px;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+	display: block;
 }
 
-.sectionHeader, .diaryHeader {
-	color: #7d8491;
-}
-
-.thirdHeader {
-	color: #443850;
-}
-
-.link {
+.navigation__link {
 	color: #898b49;
+	text-decoration: none;
+}
+
+.navigation__link--homepage {
+	color: darkgreen;
+	display: inline-block;
+}
+
+.main {
+	max-width: 900px;
+	margin: 32px auto;
+}
+
+.header
+{
+	color: #7d8491;
 }
 
 .about {
 	position: relative;
 	width: 100%;
-	max-width: 700px;
-	margin: 32px;
+	max-width: 900px;
+	margin: 32px auto;
 	overflow: hidden;
 }
 
-.box {
+.about__header
+{
+	color: #7d8491;
+}
+
+.about__paragraph
+{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.about__picture
+{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+.about_link
+{
+	color: #89fbf9;
+	display: inline-block;
+}
+
+.day {
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+	margin: 32px auto;
+	overflow: hidden;
+}	
+
+.day__header
+{
+	color: #7d8491;
+}
+
+.day__paragraph
+{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.day__picture
+{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+.day_link
+{
+	color: #89fbf9;
+	display: inline-block;
+}
+
+
+.ajax--js {
 	width: 100px;
 	height: 100px;
 	background-color: #898b49;
@@ -38,9 +115,29 @@ body {
 	right: 50%;
 	z-index: 2;
 	position: sticky;
+	display: inline-block;
 }
 
-.top{
+.footer{
+	font-size: 16px;
+	font-weight: bold;
+	top: 10px;
+	left: 0;
+	box-sizing: border-box;
+	padding: 0 16px;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+	display: block;
+}
+
+.footer__link{
+	color: darkolivegreen;
+	text-decoration: none;
+}
+
+.footer__link--navigation{
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
@@ -48,23 +145,8 @@ body {
 	text-decoration: none;
 }
 
-.navigation{
-	position: fixed;
-	width: 100%;
-	padding: 10x;
-	top: 10px;
-	left: 0;
-	color: aqua;
-	box-sizing: border-box;
-	padding: 16px;
-	background-color: #fff;
-}
-
-.articlePic
+.footer__paragraph
 {
-	display: block;
-	width: 100%;
-	max-width: 200px;
-	float: left;
-	margin: 0 16px 16px 0;
+	font-size: 16px;
+	line-height: 1.6;
 }

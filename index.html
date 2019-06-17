@@ -12,55 +12,61 @@
 <body>
 
 	<header class="navigation">
-			<a href="index.html" class="link">Strona główna</a>
-			<a href="prawidlowyhtml.html" class="link">Prawidłowy HTML</a>
+		<a href="index.html" class="navigation__link navigation__link--homepage">Strona główna</a>
+		<a href="prawidlowyhtml.html" class="navigation__link">Prawidłowy HTML</a>
 	</header>
 
 	<main>
-		<header>
-				<h1 id="top" class="mainHeader">Andrzej Lach - Strona domowa</h1>
+		<header class="header">
+			<h1 id="top" class="main main--js">Andrzej Lach - Strona testowa</h1>
 		</header>
+
 		<section class="about">
-			<img src="swim.jpg" alt="swimming" class="articlePic">
-			<div class="box">Co ten frontend</div>
-			<h2 class="sectionHeader">Kim Jestem</h2>
-			<p>Hej uczę się frontendu od podstaw od Maćka Korsana<br /> ....</p>
+			<img  class="about__picture" src="swim.jpg" alt ="swimming">
+			<h2 class="about__header">Kim Jestem</h2>
+			<p class="about__paragraph">Hej uczę się frontendu od podstaw dzięki kursowi  Maćka Korsana <br>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore, nostrum quae ipsum assumenda voluptate impedit hic ad sit vel error voluptatem ipsam culpa vitae corrupti laudantium. Dolore, molestias quod!<br>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus hic, iste, adipisci aspernatur eligendi voluptas animi odio maiores laudantium repellat esse tenetur? Possimus molestias quas quos accusantium asperiores! Quibusdam, tenetur!
+			</p>
+			<a href="alach.html" class="about_link">Przejdź do artykułu</a>
 		</section>
 
-		<section>
+		<div class="ajax--js">Co ten frontend</div>
+
+		<section class="day">
 			<h2>Pamiętniczek</h2>
 			<section>
-				<h3 class="diaryHeader"><em>Prawidłowy HTML</em> - jak go stworzyć</h3>
-				<p>
+				<h3 class="day__header"><em>Prawidłowy HTML</em> - jak go stworzyć</h3>
+				<p class="day__paragraph">
 					<em>Semantyczny HTML</em> to dokument, który potrafą czytać czytniki. Zawiera on takie sekcje &lt;main&gt;
 					&lt;section&gt; &lt;header&gt; &lt;footer&gt; Nie można zapominać o: &lt;html lang="pl"&gt;. Powinno być poprawnie ustawione dla czytników!<br>
-					<a href="prawidlowyhtml.html" class="link">Przejdź do artykułu</a>
+					<a href="prawidlowyhtml.html" class="day_link">Przejdź do artykułu</a>
 				</p>
 			</section>
 			<section>
-				<h3 class="diaryHeader">Prawidłowe style CSS</h3>
-				<p>
-					<a href="#rozszerzenia" class="link">Rozszerzenia</a>
+				<h3 class="day__header">Prawidłowe style CSS</h3>
+				<p class="day__paragraph">
+					<a href="#rozszerzenia" class="day_link">Rozszerzenia</a>
 				</p>
 			</section>
 		</section>
 
-		<section id=rozszerzenia>
-			<h3 class="diaryHeader">Extensions (Ctrl+P) i CSS Formatter Martina Aeschillman</h3>
-			<p>bla bla bla
+		<section class="day" id=rozszerzenia>
+			<h3 class="day__header">Extensions (Ctrl+P) i CSS Formatter Martina Aeschillman</h3>
+			<p class="day__paragraph">bla bla bla
 			</p>
 		</section>
 
-		<section>
-				<h3 class="diaryHeader">Rusza proces akredytacji na Parapływackie Mistrzostwa Świata w Londynie!</h3>
-				<img src="swim.jpg" alt="swimming" class="articlePic">
-				<p>Informujemy, że organizacje World Para Swimming wraz z British Swimming rozpoczynają proces akredytacyjny dla przedstawicieli prasy, radia i telewizji (nie posiadających praw nadawcy) oraz fotoreporterów zainteresowanych relacjonowaniem tegorocznych Parapływackich Mistrzostw Świata.</p>
-				<p>IX edycja Mistrzostw Świata odbędzie się na jesieni tego roku w Wielkiej Brytanii w London Aquatics Centre Queen Elizabeth Park – tym samym, w którym rozgrywana była pływacka rywalizacja podczas Igrzysk Paraolimpijskich w Londynie w 2012 roku. W mistrzostwach weźmie udział blisko 600 zawodników z 60 krajów. Zawody rozpoczną się 9 września i potrwają przez cały tydzień, do 15 września. Wręczonych zostanie ponad 130 tytułów mistrzyń i mistrzów świata. Zawody stanowią kluczowy etap kwalifikacji na igrzyska paraolimpijskie w Tokio w 2020 roku. Polskę będzie reprezentowało 9-11 zawodników.
-				<p>Link do akredytacji:</p>
-						https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy
-						<p>Więcej informacji udziela:</p>
+		<section class="day">
+			<h3 class="day__header">Rusza proces akredytacji na Parapływackie Mistrzostwa Świata w Londynie!</h3>
+				<img src="swim.jpg" alt="swimming" class="day__picture">
+				<p class="day__paragraph">Informujemy, że organizacje World Para Swimming wraz z British Swimming rozpoczynają proces akredytacyjny dla przedstawicieli prasy, radia i telewizji (nie posiadających praw nadawcy) oraz fotoreporterów zainteresowanych relacjonowaniem tegorocznych Parapływackich Mistrzostw Świata.</p>
+				<p class="day__paragraph">IX edycja Mistrzostw Świata odbędzie się na jesieni tego roku w Wielkiej Brytanii w London Aquatics Centre Queen Elizabeth Park – tym samym, w którym rozgrywana była pływacka rywalizacja podczas Igrzysk Paraolimpijskich w Londynie w 2012 roku. W mistrzostwach weźmie udział blisko 600 zawodników z 60 krajów. Zawody rozpoczną się 9 września i potrwają przez cały tydzień, do 15 września. Wręczonych zostanie ponad 130 tytułów mistrzyń i mistrzów świata. Zawody stanowią kluczowy etap kwalifikacji na igrzyska paraolimpijskie w Tokio w 2020 roku. Polskę będzie reprezentowało 9-11 zawodników.
+				<p class="day__paragraph">Link do akredytacji:</p>
+						<a href="https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy" class="day_link">https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy</a>
+						<p class="day__paragraph">Więcej informacji udziela:</p>
 						
-						<p><span>Dan McDermott</span><br>
+						<p class="day__paragraph"><span>Dan McDermott</span><br>
 						Marketing and PR Officer<br>
 						British Swimming<br>
 						www.britishswimming.org<br>
@@ -72,13 +78,13 @@
 			
 
 
-	</main>
-
-	<footer>
-			<a href="#top" class="top">Na Górę</a>
-			Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
+	<footer class="footer">
+			<p class="footer__paragraph"></p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
+			<a href="#top" class="footer__link">Na Górę</a>
 	</footer>
-	<script src="main.js"></script>
+</main>
+
+<script src="main.js"></script>
 </body>
 
 </html>
