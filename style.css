@@ -200,11 +200,11 @@ body {
 .flex{
 	border: 4px solid #ee0c21;
 	background: #2e2240;
-	min-height: 100vh;
+	height: 100vh;
 	display: flex;
-	flex-flow:  row wrap;
+	flex-flow:  column wrap;
 	justify-content: space-around;
-	align-content: space-around;
+	align-content: space-between;
 	align-items: baseline;
 }
 
