@@ -217,6 +217,13 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 	width: 400px;
+	order: 2;
+	flex: 1 1 150px; /* flex: <flex-grow> <flex-shrink> <flex-basis> */
+	/*
+		Za pomocą właściwości flex-grow możemy określić proporcję rozrostu jednego z rozmiarów obszaru zawartości elementów dzieci interesującego nas elementu HTML tworzącego układ elastyczny. 
+		Za pomocą właściwości flex-shrink możemy określić proporcję kurczenia się jednego z rozmiarów obszaru zawartości elementów dzieci interesującego nas elementu HTML tworzącego układ elastyczny. 
+		Za pomocą właściwości flex-basis możemy określić rozmiar główny obszaru zawartości interesującego nas elementu dziecka elementu HTML tworzącego układ elastyczny.
+	*/
 }
 
 .flex__item--bigger{
@@ -225,4 +232,5 @@ body {
 
 .flex__item--centered{
 	align-self: center;
+	order: -1;
 }
