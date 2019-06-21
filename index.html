@@ -6,14 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Strona domowa</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-	<header class="navigation">
-		<a href="index.html" class="navigation__link navigation__link--homepage">Strona główna</a>
-		<a href="prawidlowyhtml.html" class="navigation__link">Prawidłowy HTML</a>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a href="index.html" class="navigation__link navigation__link--homepage">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a href="prawidlowyhtml.html" class="navigation__link">Prawidłowy HTML</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
@@ -22,12 +31,36 @@
 		</header>
 
 		<section class="about">
-			<img  class="about__picture" src="swim.jpg" alt ="swimming">
+			<img class="about__picture" src="swim.jpg" alt="swimming">
 			<h2 class="about__header">Kim Jestem</h2>
-			<p class="about__paragraph">Hej uczę się frontendu od podstaw dzięki kursowi  Maćka Korsana <br>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore, nostrum quae ipsum assumenda voluptate impedit hic ad sit vel error voluptatem ipsam culpa vitae corrupti laudantium. Dolore, molestias quod!<br>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus hic, iste, adipisci aspernatur eligendi voluptas animi odio maiores laudantium repellat esse tenetur? Possimus molestias quas quos accusantium asperiores! Quibusdam, tenetur!
+			<p class="about__paragraph">Hej uczę się frontendu od podstaw dzięki kursowi Maćka Korsana <br>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore, nostrum quae ipsum
+				assumenda voluptate impedit hic ad sit vel error voluptatem ipsam culpa vitae corrupti laudantium.
+				Dolore, molestias quod!<br>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus hic, iste, adipisci aspernatur
+				eligendi voluptas animi odio maiores laudantium repellat esse tenetur? Possimus molestias quas quos
+				accusantium asperiores! Quibusdam, tenetur!
 			</p>
+
+			<section class="hobby">
+				<ul class="hobby__list">
+					<li>uczestnictwo w szkoleniu</li>
+					<li>nie mam hobby</li>
+					<li>spanie</li>
+					<li>leniuchowanie</li>
+					<li>układnianie planu dnia
+						<ol>
+							<li>otwórz przeglądarkę</li>
+							<li>wpsz w adresie "cotenfrontend.pl"</li>
+							<li>[enter]</li>
+						</ol>
+					</li>
+				</ul>
+			</section>
+
+			<section class="plan">
+			</section>
+
 			<a href="alach.html" class="about_link">Przejdź do artykułu</a>
 		</section>
 
@@ -38,8 +71,10 @@
 			<section>
 				<h3 class="day__header"><em>Prawidłowy HTML</em> - jak go stworzyć</h3>
 				<p class="day__paragraph">
-					<em>Semantyczny HTML</em> to dokument, który potrafą czytać czytniki. Zawiera on takie sekcje &lt;main&gt;
-					&lt;section&gt; &lt;header&gt; &lt;footer&gt; Nie można zapominać o: &lt;html lang="pl"&gt;. Powinno być poprawnie ustawione dla czytników!<br>
+					<em>Semantyczny HTML</em> to dokument, który potrafą czytać czytniki. Zawiera on takie sekcje
+					&lt;main&gt;
+					&lt;section&gt; &lt;header&gt; &lt;footer&gt; Nie można zapominać o: &lt;html lang="pl"&gt;. Powinno
+					być poprawnie ustawione dla czytników!<br>
 					<a href="prawidlowyhtml.html" class="day_link">Przejdź do artykułu</a>
 				</p>
 			</section>
@@ -59,32 +94,79 @@
 
 		<section class="day">
 			<h3 class="day__header">Rusza proces akredytacji na Parapływackie Mistrzostwa Świata w Londynie!</h3>
-				<img src="swim.jpg" alt="swimming" class="day__picture">
-				<p class="day__paragraph">Informujemy, że organizacje World Para Swimming wraz z British Swimming rozpoczynają proces akredytacyjny dla przedstawicieli prasy, radia i telewizji (nie posiadających praw nadawcy) oraz fotoreporterów zainteresowanych relacjonowaniem tegorocznych Parapływackich Mistrzostw Świata.</p>
-				<p class="day__paragraph">IX edycja Mistrzostw Świata odbędzie się na jesieni tego roku w Wielkiej Brytanii w London Aquatics Centre Queen Elizabeth Park – tym samym, w którym rozgrywana była pływacka rywalizacja podczas Igrzysk Paraolimpijskich w Londynie w 2012 roku. W mistrzostwach weźmie udział blisko 600 zawodników z 60 krajów. Zawody rozpoczną się 9 września i potrwają przez cały tydzień, do 15 września. Wręczonych zostanie ponad 130 tytułów mistrzyń i mistrzów świata. Zawody stanowią kluczowy etap kwalifikacji na igrzyska paraolimpijskie w Tokio w 2020 roku. Polskę będzie reprezentowało 9-11 zawodników.
+			<img src="swim.jpg" alt="swimming" class="day__picture">
+			<p class="day__paragraph">Informujemy, że organizacje World Para Swimming wraz z British Swimming
+				rozpoczynają proces akredytacyjny dla przedstawicieli prasy, radia i telewizji (nie posiadających praw
+				nadawcy) oraz fotoreporterów zainteresowanych relacjonowaniem tegorocznych Parapływackich Mistrzostw
+				Świata.</p>
+			<p class="day__paragraph">IX edycja Mistrzostw Świata odbędzie się na jesieni tego roku w Wielkiej Brytanii
+				w London Aquatics Centre Queen Elizabeth Park – tym samym, w którym rozgrywana była pływacka rywalizacja
+				podczas Igrzysk Paraolimpijskich w Londynie w 2012 roku. W mistrzostwach weźmie udział blisko 600
+				zawodników z 60 krajów. Zawody rozpoczną się 9 września i potrwają przez cały tydzień, do 15 września.
+				Wręczonych zostanie ponad 130 tytułów mistrzyń i mistrzów świata. Zawody stanowią kluczowy etap
+				kwalifikacji na igrzyska paraolimpijskie w Tokio w 2020 roku. Polskę będzie reprezentowało 9-11
+				zawodników.
 				<p class="day__paragraph">Link do akredytacji:</p>
-						<a href="https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy" class="day_link">https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy</a>
-						<p class="day__paragraph">Więcej informacji udziela:</p>
-						
-						<p class="day__paragraph"><span>Dan McDermott</span><br>
-						Marketing and PR Officer<br>
-						British Swimming<br>
-						www.britishswimming.org<br>
-						E: dan.mcdermott@swimming.org<br>
-						M: 07583 681180<br>
-						źródło: Press Release IPC<br>
-						foto: Adrian Stykowski</p>
+				<a href="https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy"
+					class="day_link">https://britishswimming.formstack.com/forms/british_swimming_media_accreditation_form_2019_copy</a>
+				<p class="day__paragraph">Więcej informacji udziela:</p>
+
+				<p class="day__paragraph"><span>Dan McDermott</span><br>
+					Marketing and PR Officer<br>
+					British Swimming<br>
+					www.britishswimming.org<br>
+					E: dan.mcdermott@swimming.org<br>
+					M: 07583 681180<br>
+					źródło: Press Release IPC<br>
+					foto: Adrian Stykowski</p>
 		</section>
-			
 
+		<section class="glossary">
+			<h2>Opis składni w html i css</h2>
+			<dl>
+				<dt>CSS</dt>
+				<dd>
+					To co widzisz tiakie ładne i składne (albo i nie)
+				</dd>
+				<dt>HTML</dt>
+				<dd>
+					To szkielet strony ...
+				</dd>
+				<dt>JavaScript</dt>
+				<dt>Es6</dt>
+				<dd>
+					To rzeczy którch się uczę ...
+				</dd>
+			</dl>
+		</section>
+		<section class="data">
+			<table class="data__table">
+				<caption class="data__caption">Oceny z pierwszego semestru WTF</caption>
+				<head class="data__header">
+					<tr>
+						<th>Imię i Nazwisko</th>
+						<th>Ocena</th>
+						<th>Data </th>
+					</tr>
+				</head>
+				<tbody class="data__body">
+					<tr>
+						<td>Andrzej Lach</td>
+						<td>2,5</td>
+						<td>21.06.2019</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 
-	<footer class="footer">
-			<p class="footer__paragraph"></p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
-			<a href="#top" class="footer__link">Na Górę</a>
-	</footer>
-</main>
+		<footer class="footer">
+			<p class="footer__paragraph"></p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia
+			szkolenia WTF: co ten frontend.
+			<a href="#top" class="footer__link--navigation">Na Górę</a>
+		</footer>
+	</main>
 
-<script src="main.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
