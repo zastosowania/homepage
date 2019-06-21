@@ -196,3 +196,33 @@ body {
 .data__body{
 	background-color: #a9ab69;
 }
+
+.flex{
+	border: 4px solid #ee0c21;
+	background: #2e2240;
+	min-height: 100vh;
+	display: flex;
+	flex-flow:  row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: baseline;
+}
+
+.flex__item{
+	border: 3px solid #fff;
+	padding: 10px;
+	text-align: center;
+	background: #ffc835;
+	color: #642677;
+	font-weight: bold;
+	font-size: 20px;
+	width: 400px;
+}
+
+.flex__item--bigger{
+	font-size: 32px;
+}
+
+.flex__item--centered{
+	align-self: center;
+}
